@@ -40,10 +40,12 @@ ThemeData lightThemeData(BuildContext context) {
       bodyText1: GoogleFonts.firaSans(
           textStyle: TextStyle(
         color: kBodyTextColorLight,
+        fontSize: 14,
       )),
       bodyText2: GoogleFonts.firaSans(
           textStyle: TextStyle(
         color: kBodyTextColorLight,
+        fontSize: 14,
       )),
     ),
   );
@@ -87,10 +89,12 @@ ThemeData darkThemeData(BuildContext context) {
         bodyText1: GoogleFonts.firaSans(
             textStyle: TextStyle(
           color: kBodyTextColorDark,
+          fontSize: 14,
         )),
         bodyText2: GoogleFonts.firaSans(
             textStyle: TextStyle(
           color: kBodyTextColorDark,
+          fontSize: 14,
         ))),
   );
 }
